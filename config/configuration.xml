@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configuration>
     <discovery>
-    	<user>05824c91-c3e4-4a75-a73d-d4849087d6ed</user>
-    	<password>BmBKe873jDmi</password>
+    	<user></user>
+    	<password></password>
     	<apiPoint>https://gateway.watsonplatform.net/discovery/api/</apiPoint>
     	<apiVersion>2017-11-07</apiVersion>
     	<authenticate>false</authenticate>
