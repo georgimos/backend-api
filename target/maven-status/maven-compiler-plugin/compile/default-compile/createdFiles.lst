@@ -1,0 +1,6 @@
+data\Configuration.class
+utility\Combiner.class
+servlet\ReplyResults.class
+api\DiscoveryAPI.class
+utility\Parser.class
+data\Collection.class

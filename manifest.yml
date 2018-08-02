@@ -1,0 +1,8 @@
+---
+applications:
+- name: sample-java-helloworld
+  random-route: true
+  memory: 256M
+  path: target/JavaHelloWorldApp.war
+  domain: mybluemix.net
+  buildpack: liberty-for-java_v3_22-20180601-1200

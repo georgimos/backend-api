@@ -1,0 +1,22 @@
+<server>
+
+    <featureManager>
+        <feature>servlet-3.1</feature>
+    </featureManager>
+
+    <httpEndpoint id="defaultHttpEndpoint"
+                  host="*"
+                  httpPort="9080">
+    <cors domain="/configurations/simple"
+//    httpOptionsRef= "defaultHttpEndpoint"
+    allowedOrigins="openliberty.io"
+    allowedMethods="GET"
+    allowCredentials="true"
+    exposeHeaders="MyHeader"/>
+        <tcpOptions soReuseAddr="true"/>
+    
+    </httpEndpoint>
+    
+    <application name="demo-watson-discovery-api" id="demo-watson-discovery-api" context-root="/" location="${appLocation}" type="war"/>
+
+</server>

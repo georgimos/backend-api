@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <discovery>
+    	<user>05824c91-c3e4-4a75-a73d-d4849087d6ed</user>
+    	<password>BmBKe873jDmi</password>
+    	<apiPoint>https://gateway.watsonplatform.net/discovery/api/</apiPoint>
+    	<apiVersion>2017-11-07</apiVersion>
+    	<authenticate>false</authenticate>
+    </discovery>
+    <collections>
+ 	    <collection>
+	    	<name>GDPR_Legislation</name>
+	    	<collectionId>b7f75e23-46c4-4f30-99e9-06de4688b358</collectionId>
+	    	<configurationId>de0631df-c934-40d0-81cd-4e93c917ebeb</configurationId>
+	    	<environmentId>271bcd82-7da5-4691-90bc-c645956b3cfa  </environmentId>   
+	    </collection>       	    	  
+    </collections>
+</configuration>
